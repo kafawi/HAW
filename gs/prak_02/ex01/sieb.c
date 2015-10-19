@@ -11,8 +11,6 @@ void init_prim_arr(){
 	// indizes
 	int i;	
 	
-	char prim_arr[ANZ]; 
-	
 	// -- DEFINITION --
 	prim_arr[0]=0;
 	prim_arr[1]=0;
@@ -26,7 +24,6 @@ void calc_prim_arr(){
 	//  --  DEKLARATION --
 	// indizes
 	int i, endi, j;
-	char prim_arr[ANZ];
 	
 	// -- DEFINITION --
 	endi=(int)sqrt((double)ANZ);
@@ -49,8 +46,6 @@ int calc_sum_prim(int start, int ende){
 	
 	int i;
 	int anz_prim;
-	char prim_arr[ANZ]; 
-	
 	
 	if (ende > ANZ) {
 		ende = ANZ;
@@ -70,7 +65,6 @@ void print_prim_arr(){
 	//  --  DEKLARATION --
 	// indizes
 	int i,j,jend;	 
-	char prim_arr[ANZ]; 
 	
 	jend=10;
 	// -- DEFINITION --
