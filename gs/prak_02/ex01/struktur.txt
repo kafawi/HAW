@@ -1,0 +1,38 @@
+Struktur:
+
+Das Projekt besteht aus 3 Modulen und 1ner Headerdatei.
+
+sieb.c: 
+  void init_prim_arr() // initialisiert das Array, auf dem gerechnet wird.
+  void calc_prim_arr() // berechnet die primzahlen (algo) im Array
+  int calc_sum_prim() // berechnet die Anzahl zwischen Start und einem Ende (beide global)
+    // dabei wird das Ende auf das obere Limit des Arrays gesetzt falls ende größer als dieses ist. 
+    // unteres Limit (o) und Start wird nicht verglichen. 
+  
+ausg.c:
+  static bool oefters_ausgefuehrt // abfrage, weil gefordert, ob es die erste Ausgabe ist. 
+    // wenn ja, dann wird der TFT im folgenden Unterprogramm entsprechend vorbereitet.
+  void print_ergebnis_TFT() // gibt auf dem TFT-Bildschirm die Anzahl der Primzahlen im intervall an
+  
+  
+main.c:
+  void main() // ruf nacheinander die einzelnen Unterprogramme auf. Dabei wird die Variable 
+    // prim_anz mit calc_prim_arr() definiert. Danach wird es ausgegeben.
+    
+sieb.h 
+  Konstanten: 
+    ANZ = länge des Arrays
+  Prototypen aller Unterprogramme
+  Globale Variablen:
+    int prim_arr
+    int prim_anz
+    int start
+    int ende
+
+  Der Algorithmus steht im Unterprogramm calc_prim_arr und ist das Sieb des Erathostenes:
+  Dabei wird immer das vielfache der betrachteten Primzahl aus dem Kreis des potenziellen 
+  Primzahlen herausgesiebt. Dann wir die nächst höhere Primzahl betrachtet und die Vielfachen
+  aus dem Kreis der potenziellen Primzahlen gelöscht usw.
+  
+  
+  
