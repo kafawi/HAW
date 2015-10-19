@@ -3,7 +3,7 @@
 #include <string.h>
 #include "tft.h"
 
-static bool oefters_ausgefuehrt
+static bool oefters_ausgefuehrt;
 
 void print_ergebnis_TFT(){
 	bool oefters_ausgefuehrt;
