@@ -2,10 +2,15 @@
 #include "sieb.h"
 
 void main(){
+	int start = 0;
+	int ende  = 100;
+	int prim_anz;
+	
 	init_prim_arr();
 	calc_prim_arr();
-	print_prim_arr();
+	//print_prim_arr();
 
 	
-	printf("Anzahl: %i \n",calc_sum_prim(0,100));
+	prim_anz = calc_sum_prim(start,ende);
+	calc_sum_prim(start,ende)
 }
