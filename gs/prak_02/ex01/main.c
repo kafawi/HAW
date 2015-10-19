@@ -12,5 +12,5 @@ void main(){
 
 	
 	prim_anz = calc_sum_prim(start,ende);
-	calc_sum_prim(start,ende)
+	print_ergebnis_TFT();
 }
