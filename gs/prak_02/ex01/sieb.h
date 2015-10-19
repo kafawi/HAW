@@ -10,4 +10,6 @@ void print_ergebnis_TFT(void);
 // -------------------------------------------------------------- DEKLARATION -
 extern char prim_arr[ANZ];
 extern int prim_anz;
+extern int start;
+extern int ende;
 // ---------------------------------------------------------------------- EOF -
