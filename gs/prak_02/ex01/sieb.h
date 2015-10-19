@@ -7,6 +7,7 @@ int calc_sum_prim(int, int);
 
 void print_ergebnis_TFT(void);
 
-// ---------------------------------------------------------------- VARIABLEN -
+// -------------------------------------------------------------- DEKLARATION -
 extern char prim_arr[ANZ];
+extern int prim_anz;
 // ---------------------------------------------------------------------- EOF -
