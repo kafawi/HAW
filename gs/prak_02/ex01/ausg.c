@@ -4,6 +4,9 @@
 #include "tft.h"
 
 static bool oefters_ausgefuehrt;
+int start;
+int ende;
+int anz_prim;
 
 void print_ergebnis_TFT(){
 	bool oefters_ausgefuehrt;
@@ -14,9 +17,8 @@ void print_ergebnis_TFT(){
 		TFT_cls();
 	}
 	
-	sprintf(ausgabe, "Primzahlenanzahl zwischen %i und %i: %i \n", START, ENDE, anz_prim );
+	sprintf(ausgabe, "Primzahlenanzahl zwischen %i und %i: %i \n", start, ende, anz_prim );
 	TFT_puts(ausgabe);
-	
 	
 	return;
 }
