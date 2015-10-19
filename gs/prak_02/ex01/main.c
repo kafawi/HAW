@@ -7,9 +7,8 @@ int ende;
 
 
 void main(){
-	int start = 0;
-	int ende  = 100;
-	int prim_anz;
+	start = 0;
+	ende  = 100;
 	
 	init_prim_arr();
 	calc_prim_arr();
