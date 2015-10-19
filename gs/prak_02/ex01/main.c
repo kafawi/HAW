@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "sieb.h"
 
+int prim_anz;
+int start;
+int ende;
+
+
 void main(){
 	int start = 0;
 	int ende  = 100;
