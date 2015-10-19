@@ -8,7 +8,6 @@
 char prim_arr[ANZ]; 
 
 void init_prim_arr(){
-	//  --  DEKLARATION --
 	// indizes
 	int i;	
 	
