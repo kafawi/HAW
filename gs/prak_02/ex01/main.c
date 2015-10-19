@@ -9,3 +9,4 @@ void main(){
 	
 	printf("Anzahl: %i \n",calc_sum_prim(0,100));
 }
+//dies ist die main
