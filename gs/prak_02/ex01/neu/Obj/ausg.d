@@ -1,0 +1,12 @@
+.\obj\ausg.o: ausg.c
+.\obj\ausg.o: main.h
+.\obj\ausg.o: stm32f4xx.h
+.\obj\ausg.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4.h
+.\obj\ausg.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\ausg.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h
+.\obj\ausg.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h
+.\obj\ausg.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4_simd.h
+.\obj\ausg.o: C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h
+.\obj\ausg.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\ausg.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\obj\ausg.o: tft.h
